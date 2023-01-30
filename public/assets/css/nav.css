@@ -16,6 +16,7 @@
 }
 
 .nav{
+    position: relative;
     padding: 10px 10vw;
     display: flex;
     justify-content: space-between;
@@ -84,12 +85,18 @@
     list-style: none;
     border-top: 1px solid #d1d1d1;
 }
-.navbar .links-container .link-item{
-    list-style: none;
-    margin-left: 30px;
-}
-
-.navbar .links-container .link-item a{
+.link-item a{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
     text-decoration: none;
     color: #383838;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.link-item a:hover{
+    opacity: 1;
+    font-weight: bold;
+    transition: .5s;
 }
