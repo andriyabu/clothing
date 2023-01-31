@@ -16,7 +16,8 @@
 }
 
 .nav{
-    /* position: relative; */
+    position: relative;
+    /* position: absolute; */
     padding: 10px 10vw;
     display: flex;
     justify-content: space-between;
